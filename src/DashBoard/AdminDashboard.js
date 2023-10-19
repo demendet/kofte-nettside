@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { auth } from '../firebase';
-import { httpsCallable } from 'firebase/functions';
+// import { httpsCallable } from 'firebase/functions';
 
 function AdminDashboard() {
   const [searchTerm, setSearchTerm] = useState('');

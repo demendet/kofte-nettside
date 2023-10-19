@@ -54,10 +54,10 @@ const AuthPage = () => {
     newsletter: false
   });
 
-  const blurStyle = {
-    backdropFilter: loading || success !== null ? 'blur(4px)' : 'none',
-    pointerEvents: loading || success !== null ? 'none' : 'auto',
-  };
+  // const blurStyle = {
+  //   backdropFilter: loading || success !== null ? 'blur(4px)' : 'none',
+  //   pointerEvents: loading || success !== null ? 'none' : 'auto',
+  // };
 
   const overlayStyle = {
     position: 'fixed',

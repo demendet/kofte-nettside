@@ -1,6 +1,6 @@
 // VideoProducts.js
 import React from 'react';
-import { AppBar, Toolbar, Typography, Card, CardContent, CardMedia } from '@mui/material';
+import { AppBar, Toolbar, Typography, CardMedia } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import VideoCategory from './VideoCategory'; // Create a separate component for video categories
 import LuhkkaAI from "../Assets/Images/LuhkkaAI.png";
@@ -37,28 +37,28 @@ const StyledAppBar = styled(AppBar)(({ theme }) => ({
   boxShadow: 'none',
 }));
 
-const StyledCard = styled(Card)(({ theme }) => ({
-  backgroundColor: 'transparent',
-  maxWidth: '200px',
-  textAlign: 'center',
-  boxShadow: 'none',
-  margin: '0 15px',
-}));
+// const StyledCard = styled(Card)(({ theme }) => ({
+//   backgroundColor: 'transparent',
+//   maxWidth: '200px',
+//   textAlign: 'center',
+//   boxShadow: 'none',
+//   margin: '0 15px',
+// }));
 
-const StyledHexagonalImage = styled(CardMedia)(({ theme }) => ({
-  clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)',
-  width: '150px',
-  height: '150px',
-}));
+// const StyledHexagonalImage = styled(CardMedia)(({ theme }) => ({
+//   clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)',
+//   width: '150px',
+//   height: '150px',
+// }));
 
-const ProductWrapper = styled('div')(({ theme }) => ({
-  backgroundColor: '#f7f4e9',
-  padding: '20px 0',
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  flexWrap: 'wrap',
-}));
+// const ProductWrapper = styled('div')(({ theme }) => ({
+//   backgroundColor: '#f7f4e9',
+//   padding: '20px 0',
+//   display: 'flex',
+//   justifyContent: 'center',
+//   alignItems: 'center',
+//   flexWrap: 'wrap',
+// }));
 
 function VideoProducts() {
   return (

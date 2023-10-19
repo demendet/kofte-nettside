@@ -1,5 +1,5 @@
-import React, { useContext } from 'react';
-import { Box, Typography, Card, CardContent } from '@mui/material';
+import React from 'react';
+import { Box, Typography } from '@mui/material';
 import { useUser } from '../AuthPage/UserContext'; // Import the useUser hook
 
 function UserDashboard() {
