@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "kofte-nettside-88641",
+  "private_key_id": "a6ee3efc0f70f4e4c9693318e61f0da85da7fb80",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCsmWCfaX646Yot\ndz63v+dkHQkiBWczkunlZUmC4CtQF3MKILqKNTUy3Pw3ngsyHSlDvhK92uNpXVd5\nqLihtUoViEOgAQAKToJfc733+wsy8aVSjdpwaBNencD6BfFZu5B7x7zTrZ/1P6pG\nn2J3GH7n5Sw3Nz3AQLxNl8nU6ExFT982TprvSHjawiGW5XFmW8ROHAugrMxDsLBv\nJodgHNWzKXrPFQz4FDamiSG9E4+RGkr353acKFv8oRxc2HD5IZ+1q5g0Tp7IBtAS\nFQ07vPuNxJ68Q7JWVx7tLOPsc9E/H9/PQ5ql3FWCZdYSnd8KtddCmkR2XBDQi+Tp\n3kXAvQHjAgMBAAECggEAQza5f2rUPAtKUZlR1bnIUN7Tyylifp2UM06F2Y8Vnut6\n07NaIW9GB8gx+jC0OHBNvQE8iC3BCKueYJS5TdPtBUSa3Sj2jIz1TVmj3Xmoa07a\nLDNsoQCOpnZ1i4gb7G9T/TgTyzUeiSGhXD4+WJWz+fdviBMdm4w6KFdXdG+AIC8s\n7qd0LRQ+BpOcoqxsGhmRzyHjWIAwzuFLruIlD3GvzPxUp1ssw+J5ULfxeWB6GUl9\nlj0emd06dLKRsCSzWujVURYffZM2ewFVJeHrU0tiuI2Ov9uAEKmKCyMI2Putf9UG\nxFhS6ea+tTB07PXFqG789dNBog5zZS/5v5hB69HzpQKBgQDvKxmyUxGjf6WKEO2W\nkgfVdeYvh1g6s7n4mxWW1lzr4sKePwCDQnoDkXEPBI/ohlOHZ9DRcIO5h2bc0Tg0\nuEsG5AjIsJJ7dlBX1fDXxQDsFC45ClCtFrRf5XGVr1UKA0p4CT9GvTFbtkbMh359\n5ooWAKfTH7EP8xGPzNn82r5ZhQKBgQC4vvQ402tWn8VWU1ZcodiqeQ/IgUYSMOqP\nZxLcbje/k+zPmJ+F3Kt0mKt/jmkgXIlG0Wqt8pMnHY2uIeSPVPke3Fgrw/b/dklr\nMqL5uTYawpqFmUqLbvRss3PTm4eLcLXjQiljih8SF65pKFAHByU8aYBMUmi5wr9H\nj6NeDrnWRwKBgQC5SRa7RAeiNr20XLDzuWZARPpzT9NWhu5IXz02ghOy2xYTKpPn\nHJUSNpb0H4Ctj4Men5ry5svl67QQ1jVJAo19ZSQ49jJFW7+ajK/tOT4hpvC4V/lw\nXuqWcFaytAaZnzsOC3vt/ZxDhM8MnNuuBfBsY02hDihKRvEQCo/GiGB3UQKBgBnp\nboep35w+vIbnGW3UpXcDk9sjhph2k++ZHWQdcWRFcymK1pUH5mRsJWG2r7gCQp7U\nMIpFQ65wzrZlupD/8hEKBrPcwIAELzgB2in8eEI4mUOzxGjaHx4/7Tb40YIVRO2j\nEfsMHF+FQsktBkx2DBr1ETGjPV0Qm5OF6fv/RMFxAoGAI14gDpG15uZ7bsdjOcbg\n+iwuldxT2ac15TAkQ5MX7/BqwbdHPdNklL/USgu+WrerOWlcS8e2RHk+9DWqPo4t\njBb0ZxdwjiuAp9KbS6LI13ab6uinVTDw7sT6VkAIBKPCiHnCYl3mIEfYyNwqLbWC\nKWoqOKUHvsXJnl3zjUQwpkU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "kofte-nettside-88641@appspot.gserviceaccount.com",
+  "client_id": "101616410336315764577",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kofte-nettside-88641%40appspot.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

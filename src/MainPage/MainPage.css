@@ -1,0 +1,89 @@
+body {
+  background-color: #ebe8dd;
+  color: #000000;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product-card {
+  width: 345px;
+  background-color: #ebe8dd;
+  border: 1px solid #e0dedb;
+  border-radius: 4px;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  border: 1px solid #aaa;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px 4px 0 0;
+}
+
+.product-description {
+  padding: 10px;
+}
+
+.intro-section, .product-section, .video-section {
+  background-color: #f7f4e9;
+  padding: 40px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.product-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.product-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.product-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* If you have additional sections or other specific styling needs, you can continue from here. */
