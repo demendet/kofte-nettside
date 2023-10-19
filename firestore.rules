@@ -1,0 +1,16 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Make sure the UID of the requesting user matches name of the parent document
+    // Only authenticated users can read/write their own documents
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+        match /{document=**} {
+      allow read, write: if request.auth.token.admin == true;
+    }
+    
+  }
+}
+
