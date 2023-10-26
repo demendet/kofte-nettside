@@ -1,12 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
-import MainPage from './MainPage/MainPage';
-import AuthPage from './AuthPage/AuthPage';
-import VideoProducts from './Products/VideoProducts';
+// import MainPage from './MainPage/MainPage';
+// import AuthPage from './AuthPage/AuthPage';
+// import VideoProducts from './Products/VideoProducts';
+// import Dashboard from './DashBoard/Dashboard.js';
 import ComingSoon from './components/ComingSoon/ComingSoon';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 
-import Dashboard from './DashBoard/Dashboard.js';
+
 
 import { UserProvider } from './AuthPage/UserContext';
 import Header from './GlobalComponents/Header'; // Import the Header component
