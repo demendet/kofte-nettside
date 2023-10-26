@@ -1,0 +1,89 @@
+.coming-soon-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative; /* This is required to position the background div */
+  text-align: center;
+  overflow: hidden; /* To ensure the background doesn't exceed the container */
+}
+
+.background-blur {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('https://i.pinimg.com/originals/3c/5e/62/3c5e62936293861f21bf154af39f048f.jpg') no-repeat center center;
+  background-size: cover;
+  filter: blur(8px);
+  transform: scale(1.1); /* this ensures that the blur does not make the edges visible */
+  z-index: -1; /* To keep the background behind all content */
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  margin-bottom: 100px;
+  color: #ffffff;
+}
+
+.email-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.email-container input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+}
+
+.email-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+/* Mobile specific styles */
+@media only screen and (max-width: 768px) {
+
+  .main-content h1 {
+    font-size: 13px; /* Slightly smaller text on mobile */
+  }
+
+  .main-content h2 {
+    font-size: 40px; /* Considerably smaller heading */
+    margin-bottom: 50px; /* Reduced gap */
+  }
+
+  .email-container {
+    flex-direction: column; /* Stack the input and button */
+    align-items: center; /* Center-align items since it's now vertical */
+  }
+
+  .email-container input,
+  .email-container button {
+    width: 80%; /* Let the elements take up a good portion of the screen width */
+    margin: 5px 0; /* Add a little margin to space them apart */
+  }
+}

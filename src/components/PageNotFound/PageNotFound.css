@@ -1,0 +1,151 @@
+.notfound-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #001f3f, #0088a9);
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .frosty-glass, .contact-section {
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  
+  .error-text, .home-button, .contact-section {
+    color:rgb(255, 255, 255);
+    opacity: 0;
+    animation: textFadeIn 1s ease-out 1s forwards;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes textFadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .number {
+    font-size: 6rem;
+  }
+  
+  .message {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .home-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #F57375;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+  }
+  
+  .home-button:hover {
+    background-color: #E55060;
+    transform: scale(1.05);
+  }
+  
+  .snowflake {
+    position: absolute;
+    top: 0;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    animation: snowfall 20s linear infinite;
+  }
+  
+  .snowflake:nth-child(even) {
+    width: 8px;
+    height: 8px;
+    animation-duration: 15s;
+  }
+  
+  .snowflake:nth-child(odd) {
+    width: 3px;
+    height: 3px;
+    animation-duration: 8s;
+  }
+  
+  @keyframes snowfall {
+    to {
+      transform: translateY(calc(100vh + 10px));
+    }
+  }
+  
+  .contact-section {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  .email {
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  
+  .facebook-icon {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: -10px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .facebook-text {
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .kontakt-text {
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 2rem;
+    transition: color 0.3s;
+  }
+
+  .facebook-icon:hover {
+    color: #4267B2;
+  }
+  
